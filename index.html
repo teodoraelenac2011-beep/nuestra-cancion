@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desde el once ♡</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f3f0ec;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+
+    .player {
+      width: 90%;
+      max-width: 380px;
+      padding: 28px;
+      background: rgba(255,255,255,0.75);
+      border-radius: 25px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+    }
+
+    .cover {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 18px;
+      margin-bottom: 25px;
+      background: #ddd;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 27px;
+      font-weight: 600;
+    }
+
+    .artist {
+      margin-top: 8px;
+      color: #777;
+      font-size: 15px;
+    }
+
+    .play {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 28px;
+      border-radius: 50px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: transform 0.2s;
+    }
+
+    .play:hover {
+      transform: scale(1.05);
+    }
+
+    .message {
+      margin-top: 25px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="player">
+
+    <!-- AQUÍ IRÁ VUESTRA FOTO -->
+    <img class="cover" src="portada.jpg" alt="Nuestra foto">
+
+    <h1>Desde el once</h1>
+
+    <div class="artist">
+      Teodora & Ángel ♡
+    </div>
+
+    <a class="play"
+       href="https://suno.com/s/DwzDUTggedjggppx"
+       target="_blank">
+      ▶ Reproducir
+    </a>
+
+    <div class="message">
+      Una canción para nosotros,<br>
+      y para todos los recuerdos que todavía nos quedan. ♡
+    </div>
+
+  </div>
+
+</body>
+</html>
